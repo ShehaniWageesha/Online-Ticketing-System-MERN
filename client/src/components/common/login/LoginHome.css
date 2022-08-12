@@ -1,0 +1,83 @@
+
+ 
+.btn-grad {background-image: linear-gradient(to right, #085078 0%, #85D8CE  51%, #085078  100%)}
+.btn-grad {
+   width: 700px;
+   height: 50px;
+   border-radius: 8px;
+   color: white;            
+   box-shadow: blanchedalmond;
+   font-size:larger;
+   border: none;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+div.btn-bg {
+background-color: rgba(226, 223, 223, 0.65);
+position: absolute;
+top: 50%;
+left: 50%;
+width: 1000px;
+height: 500px;
+transform: translate(-50%, -50%);
+}
+
+p{
+text-align: center;
+padding-top:40px;
+font-size: 40px;
+font-weight: bold;
+font-family: 'Lucida Sans';
+}
+.image-bg-h {
+/*background: url(images/bg.jpg) no-repeat center center fixed;*/
+/*background-size: cover;*/
+/*height: 100%;*/
+/*overflow: hidden;*/
+/*background-image: url(../images/busses.jpg);*/
+/*background-size: cover;*/
+/*height: 100%;*/
+/*width: 100%;*/
+min-height: 100vh;
+background-image: url(../../../images/Capaaaature.PNG);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.login-header{
+background-color: rgba(226, 223, 223, 0.65);
+padding: 1em;
+text-align: center;
+}
+
+.login{
+/*margin-top: -100px;*/
+/*margin-left: -100px;*/
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.login * {
+margin-bottom: 25px;
+}
+
+.swal-btn {
+background-color: #30bb25;
+}
+
+.swal-btn button:hover{
+background-color: #30bb25;
+}

@@ -1,0 +1,37 @@
+.login-home-btn{
+    color: white;
+    background-color: black;
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-bg {
+    background-color: rgba(226, 223, 223, 0.65);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+}
+
+.image-bg-home {
+    /*background: url(images/bg.jpg) no-repeat center center fixed;*/
+    /*background-size: cover;*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+    /*background-image: url(../images/busses.jpg);*/
+    /*background-size: cover;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    min-height: 100vh;
+    /* background-image: url(../../../images/busstation-light.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+

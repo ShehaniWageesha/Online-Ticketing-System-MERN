@@ -1,0 +1,28 @@
+.image-bg-m {
+    min-height: 100vh;
+    background-image: url(../../../images/banner-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.btn-grad {background-image: linear-gradient(to right, #085078 0%, #85D8CE  51%, #085078  100%)}
+         .btn-grad {
+            width: 350px;
+            height: 50px;
+            border-radius: 8px;
+            color: white;            
+            box-shadow: blanchedalmond;
+            font-size:larger;
+            border: none;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }

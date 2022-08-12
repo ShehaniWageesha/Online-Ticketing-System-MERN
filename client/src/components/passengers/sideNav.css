@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/* dashboard */
+.backgroundH{
+  margin-left: 118px;
+  margin-top: 40px;
+  
+}
+
+.transpBox{
+  background-color: #ffffff;
+  opacity: 0.6;
+  width: 1119px;
+  height: 55px;
+}
+
+.transpBox p{
+  font-size: 30px;
+  padding-top: 3px;
+  padding-left: 10px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dashhead{
+  
+  margin-top: 35px;
+  margin-left:250px;
+  border-style:outset;
+  padding-left: 50px;
+  padding-top: 1px;
+  padding-bottom: 100px;
+  border-width: 3px;
+  width: 800px;
+}
+
+.cheques{
+  position: absolute;
+  margin-left: 653px;
+  margin-top: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: 23px;
+  color: #f1f1f1;
+  display: block;
+  background-color: #343a40;
+  width: 397px;
+ 
+}
+.cheques a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.openAcc{
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 55px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color: #f1f1f1;
+  display: block;
+  background-color: #343a40;
+  width: 397px;
+ 
+}
+.openAcc a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.chequeApply{
+  position: absolute;
+  margin-left: 251px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  font-size: 23px;
+  color: #f1f1f1;
+  display: block;
+  background-color: #343a40;
+  width: 400px;
+}
+
+.chequeApply a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.applyLoan{
+  position: absolute;
+  margin-left: 649px;
+  margin-top: 55px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  font-size: 19px;
+  color: #f1f1f1;
+  display: block;
+  background-color: #343a40;
+  width: 400px;
+ 
+}
+.applyLoan a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+
+
+/* create cheque */
+.listbtn{
+    position :absolute;
+    margin-left: 680px;
+    margin-top: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 1px 1px 1px 1px;
+    font-size: 19px;
+    display: block;
+}
+.listbtn a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+/* navhead */
+.navhead{
+    position: fixed;
+    width: 100%;    
+}
+
+/* calander */
+.cal{
+    padding-top: 220px;
+}
+
+/* Sidenav */
+.name{
+    padding: 2px 5px 8px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+    display: block;
+    background-color: #f1f1f1;
+}
+
+.sideNav {
+  position: fixed;
+  top:8.5%;
+  width: 18%;
+  /*background-color: #2d5e86;*/
+  height: 100%;
+  font-size: 12px;
+  background: #343a40;  
+}
+
+.sideNav a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: bold;
+  padding: 8px 8px 8px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sideNav a:hover {
+  color: #000000;
+}
+
+.sideNav Link {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sideNav Link:hover {
+  color: #f1f1f1;
+}

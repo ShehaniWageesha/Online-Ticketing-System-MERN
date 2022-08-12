@@ -1,0 +1,30 @@
+{
+  "name": "online-ticketing-system",
+  "version": "1.0.0",
+  "description": "mern stack online ticketing system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arojayathilaka/Online-Ticketing-System.git"
+  },
+  "author": "Arosha Jayathilaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arojayathilaka/Online-Ticketing-System/issues"
+  },
+  "homepage": "https://github.com/arojayathilaka/Online-Ticketing-System#readme",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.2",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
+  }
+}

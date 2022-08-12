@@ -1,0 +1,23 @@
+.fare-header{
+    background-color: rgba(226, 223, 223, 0.73);
+    padding: 1em;
+    text-align: center;
+}
+
+.hide {
+    display:none;
+    visibility:hidden;
+}
+
+.show {
+    display:inline;
+    visibility:visible;
+}
+
+.image-bg-f {
+    min-height: 100vh;
+    background-image: url(../../../../images/fares.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

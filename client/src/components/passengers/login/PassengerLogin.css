@@ -1,0 +1,7 @@
+.image-bg-p{
+    min-height: 100vh;
+    background-image: url(../../../images/passengers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
